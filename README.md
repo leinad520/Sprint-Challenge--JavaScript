@@ -30,13 +30,26 @@ Edit this document to include your answers after each question. Make sure to lea
 
 1. Describe the biggest difference between `.forEach` & `.map`.
 
+.map creates a new array, while .forEach only applies the function to each element.
+
 2. What is the difference between a function and a method?
+
+a method is a function inside an object.
 
 3. What is closure?
 
+Closure gives access to an outer function's scope from the inner function.
+
 4. Describe the four rules of the 'this' keyword.
 
+1) left of the dot when used as a method 
+2) refers to the window
+3) refers to the instantiation of a class
+4) refers to specified object when used with apply, call, or bind
+
 5. Why do we need super() in an extended class?
+
+super() applies the extended class to the new class
 
 ## Project Set up
 
